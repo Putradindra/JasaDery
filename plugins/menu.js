@@ -276,7 +276,7 @@ Info CMD =
                             {
                                 "rows": [{
                                          "title": "[📊] Status",
-                                         "description": "Status Lord Bot",
+                                         "description": "Status Null Bot",
                                          "rowId": ".botstat"
                                     }, {
                                          "title": "[⚡] Speed",
