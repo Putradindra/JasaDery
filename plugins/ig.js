@@ -21,22 +21,3 @@ handler.tags = ['downloader']
 handler.command = /^(ig|instagram)$/i
 
 handler.limit = true
-
-module.exports = handlerlet handler = async (m, { usedPrefix, command, conn, args }) => {
-  if (!args[0]) throw `Gunakan format: ${usedPrefix}${command} https://www.instagram.com/xxx/xxxx/`
-  let res = await igdl(args[0])
-  if (!res.length) throw 'Not found!'
-  for (let ress of res) {
-    let caption = ` 
-  *💻 Url:* ${args[0]}
-  *🎰 Link:* ${ress.result}
-  `.trim()
-    conn.sendFile(m.chat, ress.result, 'ig.mp4', caption, m)
-  }
-}
-handler.help = ['ig'].map(v => v + ' <url>')
-handler.tags = ['downloader']
-
-handler.command = /^(ig|instagram)$/i
-
-handler.limit = true
