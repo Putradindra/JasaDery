@@ -35,8 +35,8 @@ function pickRandom(list) {
 
 global.DeveloperMode = 'false' //Buat Mode True False Moderator
 global.linkGC = ['https://chat.whatsapp.com/Hl4KQuVJrZP0OtBmcdF9CV'] // ganti jadi group lu
-global.owner = ['6289504575881'] // Put your number here
-global.mods = ['6289504575881'] // Want some help?
+global.owner = ['6285267218151'] // Put your number here
+global.mods = ['6285267218151'] // Want some help?
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -73,12 +73,12 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = '🌙 Null вσт\nwa.me/6289504575881\n\n\n𝙱𝚢 Kurumi あ\n\n\nFollow IG: @Putra_Ganteng\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.'
+global.packname = '🌙 Null вσт\nwa.me/6289504575881\n\n\n𝙱𝚢 Kurumi あ\n\n\nFollow IG: @Putra_Ganteng\n\n\n.'
 global.author = 'Created By Swister-Putra'
 
 // silakan di ganti klo mau
-global.botwm = `🤖 Null Bot`//UBAH JADI NAMAMU
-global.wm = `꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘Swister - sama˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷`
+global.botwm = `🤖 Dery Bot`//UBAH JADI NAMAMU
+global.wm = `꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘Dery - sama˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷`
 global.botdate = `❏ ${wktu}\n❏ ${week} ${date}`
 global.imagebot = `https://telegra.ph/file/793b6accf3758f092742a.jpg`
 global.logo = fs.readFileSync('./src/logo3.jpg')
