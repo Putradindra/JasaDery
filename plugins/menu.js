@@ -34,7 +34,7 @@ const defaultMenu = {
 ⬡│▸ *Waktu:* %time
 ┬
 ├──────────────────❀
-├──❀「 NULL BOT 」❀─●
+├──❀「 DERY BOT 」❀─●
 ├──────────────────❀
 ┴
 ⬡│▸ *Nama Bot:* %me
@@ -269,14 +269,14 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 Info CMD = 
 Ⓛ = Limit
 Ⓟ = Premium
-*©Null Bot*`,
+*©Dery Bot*`,
           "buttonText": "Input Menu!",
           "listType": "SINGLE_SELECT",
           "sections": [
                             {
                                 "rows": [{
                                          "title": "[📊] Status",
-                                         "description": "Status Null Bot",
+                                         "description": "Status Dery Bot",
                                          "rowId": ".botstat"
                                     }, {
                                          "title": "[⚡] Speed",
