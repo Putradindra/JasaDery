@@ -11,9 +11,9 @@ let logo = global.logoowner
 *📈 Status* : Busy
 
 *───────[ SOSIAL MEDIA ]───────*
-*📷 instagran* : None
+*📷 instagran* : https://www.instagram.com/derydefryan/
 *🇫  Facebook* : none
-*🏮 Chanel Youtube* : https://bit.ly/NullBot
+*🏮 Chanel Youtube* : https://m.youtube.com/channel/UCNt1xUFd02wKy9NulaY5n8Q
 `
 let name = await conn.getName(m.sender)
 
